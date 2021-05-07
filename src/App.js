@@ -1,5 +1,14 @@
+import { BrowserRouter } from 'react-router-dom'
+import Nav from './components/Nav'
+
 function App() {
-  return <h1>Hello World</h1>
+  return (
+    <BrowserRouter>
+      <Nav />
+    </BrowserRouter>
+  )
+
+
 }
 
 export default App
