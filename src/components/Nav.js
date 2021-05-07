@@ -10,7 +10,7 @@ import skills from '../assets/skills.png'
 
 const Nav = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar navbar-fixed-top">
       <p><img src={about} alt="about" className="nav-item"></img></p>
       <p><img src={skills} alt="skills" className="nav-item"></img></p>
       <p><img src={experience} alt="experience" className="nav-item"></img></p>
