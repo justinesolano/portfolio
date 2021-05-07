@@ -1,6 +1,5 @@
 import React from 'react'
-// import * as Scroll from 'react-scroll'
-// import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+// import disableScroll from 'disable-scroll'
 
 import about from '../assets/about.png'
 import contactme from '../assets/contactme.png'
@@ -8,7 +7,12 @@ import experience from '../assets/experience.png'
 import projects from '../assets/projects.png'
 import skills from '../assets/skills.png'
 
-const Nav = () => {
+
+const Home = () => {
+
+  // const fieldRef = React.useRef<HTMLInputElement>(null)
+
+
   return (
     <nav className="navbar">
       <p><img src={about} alt="about" className="nav-item"></img></p>
@@ -17,7 +21,11 @@ const Nav = () => {
       <p><img src={projects} alt="project" className="nav-item"></img></p>
       <p><img src={contactme} alt="contactme" className="nav-item"></img></p>
     </nav>
+
+
+
+
   )
 }
 
-export default Nav
+export default Home
