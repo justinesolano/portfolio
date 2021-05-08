@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-.navbar{
+.navbars{
   background-color: black;
   color: white;
   display: flex;
@@ -17,7 +17,7 @@
 
 }
 .nav-item{
-  margin: 20px;
+  margin: 25px;
 }
 
 .header{
@@ -51,81 +51,43 @@
 
 }
 
-// .some-page-wrapper {
-//   margin: 100px;
-//   display: flex;
-//   justify-content: flex-end;
-//   align-content: center;
-//   // background-color: red;
-//   font-family: 'Montserrat', sans-serif;
-//   margin-top: 100px;
-// }
-
-// .row {
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   width: 100%;
-// }
-
-// .column {
-//   display: flex;
-//   flex-direction: column;
-//   flex-basis: 100%;
-//   flex: 1;
-// }
-
-// .justine-solano {
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: flex-start;
-//   background-color: black;
-//   height: 715px;
-//   // width: 600px;
-//   font-size: 75px;
-//   color: white;
-//   border-radius: 25px;
-// }
-// .justine-is{
-//   color: black;
-// }
-// .iam {
-//   // background-color: green;
-//   height: 100px;
-//   width: 100px;
-//   color: black;
-//   // display: flex;
-//   // justify-content: flex-start;
-//   // align-items: flex-end;
-//   font-size: 75px;
-// }
-// .adjectives{
-//   margin: 0px;
-// }
-
 .hr{
-  width: 50vw;
+  width: 1000px;
+
+}
+.hr-div{
+  display: flex;
+  justify-content: center;
 }
 
 .about{
+  display: flex;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
-  
-  // font-size: 70px;
+  // font-size: 50px;
+  margin: 20px
 }
 .about-me{
   display: flex;
-  justify-content: center;
-  // font-family: 'Montserrat', sans-serif;
+  justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
   font-size: 70px;
-  // width: 50vw;
-  margin-bottom: -5px;
+  width: 50vw;
+}
+.about-column{
+  margin: 28px;
+  margin-top: 0px;
 }
 .icons{
   display: flex;
   justify-content: center;
   margin: 15px;
 }
-.about-section{
+.icon{
+  margin: 19px;
+  margin-top: 5px;
+}
+.container{
   display: flex;
   justify-content: center;
   // width: 800px;
@@ -239,4 +201,59 @@
 //     font-size: 20px;
 
 //   }
+// }
+
+
+
+
+// .some-page-wrapper {
+//   margin: 100px;
+//   display: flex;
+//   justify-content: flex-end;
+//   align-content: center;
+//   // background-color: red;
+//   font-family: 'Montserrat', sans-serif;
+//   margin-top: 100px;
+// }
+
+// .row {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   width: 100%;
+// }
+
+// .column {
+//   display: flex;
+//   flex-direction: column;
+//   flex-basis: 100%;
+//   flex: 1;
+// }
+
+// .justine-solano {
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: flex-start;
+//   background-color: black;
+//   height: 715px;
+//   // width: 600px;
+//   font-size: 75px;
+//   color: white;
+//   border-radius: 25px;
+// }
+// .justine-is{
+//   color: black;
+// }
+// .iam {
+//   // background-color: green;
+//   height: 100px;
+//   width: 100px;
+//   color: black;
+//   // display: flex;
+//   // justify-content: flex-start;
+//   // align-items: flex-end;
+//   font-size: 75px;
+// }
+// .adjectives{
+//   margin: 0px;
 // }
