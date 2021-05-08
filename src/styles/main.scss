@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .navbar{
   background-color: black;
   color: white;
@@ -18,57 +20,88 @@
   margin: 20px;
 }
 
-.some-page-wrapper {
-  margin: 100px;
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-  // background-color: red;
-  font-family: 'Montserrat', sans-serif;
+.header{
   margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+.heading{
+  font-size: 100px;
+  font-family: 'Permanent Marker', cursive;
+  height: 150px;
+  background-image: url('../assets/splatter.png');
+  // background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
-
-.row {
+}
+.heading, .me-list{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  justify-content: center;
 }
-
-.column {
+.me-list{
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.justine-solano {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  background-color: black;
-  height: 715px;
-  // width: 600px;
-  font-size: 75px;
-  color: white;
-  border-radius: 25px;
-}
-.justine-is{
-  color: black;
-}
-.iam {
-  // background-color: green;
-  height: 100px;
-  width: 100px;
-  color: black;
-  // display: flex;
-  // justify-content: flex-start;
-  // align-items: flex-end;
-  font-size: 75px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 .adjectives{
   margin: 0px;
+
 }
+
+// .some-page-wrapper {
+//   margin: 100px;
+//   display: flex;
+//   justify-content: flex-end;
+//   align-content: center;
+//   // background-color: red;
+//   font-family: 'Montserrat', sans-serif;
+//   margin-top: 100px;
+// }
+
+// .row {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   width: 100%;
+// }
+
+// .column {
+//   display: flex;
+//   flex-direction: column;
+//   flex-basis: 100%;
+//   flex: 1;
+// }
+
+// .justine-solano {
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: flex-start;
+//   background-color: black;
+//   height: 715px;
+//   // width: 600px;
+//   font-size: 75px;
+//   color: white;
+//   border-radius: 25px;
+// }
+// .justine-is{
+//   color: black;
+// }
+// .iam {
+//   // background-color: green;
+//   height: 100px;
+//   width: 100px;
+//   color: black;
+//   // display: flex;
+//   // justify-content: flex-start;
+//   // align-items: flex-end;
+//   font-size: 75px;
+// }
+// .adjectives{
+//   margin: 0px;
+// }
 
 .hr{
   width: 50vw;
@@ -108,3 +141,100 @@
   color: black;
 }
 
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+  .about-section{
+    margin: 150px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 744px){
+  .about-section{
+    margin: 100px;
+    margin-top: 0px;
+  }
+ 
+}
+@media only screen and (max-width: 737px) and (min-width: 680px){
+  .about-section{
+    margin: 100px;
+    margin-top: 0px;
+  }
+  @media only screen and (max-width: 835px) and (min-width: 536px){
+    .header{
+      display: flex;
+      // justify-content: center;
+      justify-content: flex-end;
+      align-content: center;
+      background-color: black;
+      border-radius: 20px;
+      color: white;
+    }
+    .heading, .me-list{
+    display: flex;
+    justify-content: center;
+    }
+    .heading{
+      display: flex;
+      // justify-content: flex-end;
+      align-items: center;
+    }
+    .writer, .gamer {
+      margin-left: -100px;
+    }
+    .traveller{
+      margin-left: -70px;
+    }
+  }
+  // .justine-solano {
+  //   display: flex;
+  //   justify-content: center;
+
+  //   // flex-direction: row;
+  //   // flex-wrap: wrap;
+  //   width: 165%;
+  //   // background-color: purple;
+  // }
+  
+  // .iam{
+  //   display: flex;
+  //   // flex-direction: row;
+  //   align-content: flex-end;
+  //   // flex-basis: 100%;
+  //   // flex: 1;
+  //   // display: none;
+  //   margin-top: 170px;
+  //   margin-left: -180px;
+  //   color: white;
+  //   font-size: 55px;
+
+  // }
+}
+// @media only screen and (max-width: 679px) and (min-width: 659px){
+//   // .about-section{
+//   //   margin: 100px;
+//   //   margin-top: 0px;
+//   // }
+//   // .justine-solano {
+//   //   // display: flex;
+//   //   // justify-content: center;
+//   //   // flex-direction: row;
+//   //   // flex-wrap: wrap;
+//   //   // width: 300%;
+//   //   // background-color: purple;
+//   // }
+  
+//   .iam{
+//     display: flex;
+//     // flex-direction: row;
+//     // align-content: flex-end;
+//     // flex-basis: 100%;
+//     // flex: 1;
+//     // display: none;
+//     margin-top: -170px;
+//     margin-left: -180px;
+//     color: white;
+//     font-size: 20px;
+
+//   }
+// }

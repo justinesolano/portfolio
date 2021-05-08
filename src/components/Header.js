@@ -28,7 +28,23 @@ const Header = () => {
   
   return (
     <>
-      <div className="some-page-wrapper">
+      <div className="header">
+        <div className="justine-solano">
+          <h1 className="heading">Justine Solano</h1>
+        </div>
+        <div className="me-list">
+          <p className="adjectives">developer.</p>
+          <p className="adjectives writer">writer.</p>
+          <p className="adjectives">film fanatic.</p>
+          <p className="adjectives gamer">gamer.</p>
+          <p className="adjectives traveller">traveller.</p>
+          <p className="adjectives">fitness enthusiast.</p>
+          <p className="adjectives">music lover.</p>
+          <p className="adjectives">chef.</p>
+          <p className="adjectives">philosopher.</p>
+        </div>
+      </div>
+      {/* <div className="some-page-wrapper">
         <div className="row">
           <div className="column">
             <div className="justine-solano">
@@ -48,7 +64,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

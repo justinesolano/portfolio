@@ -30,7 +30,9 @@ const Home = () => {
       </nav>
       <div className="home">
         <Header className="header"/>
+        <br />
         <hr className="hr"/>
+        <br />
         <div className="about">
           <About />
         </div>
