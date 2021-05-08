@@ -20,18 +20,20 @@ const Home = () => {
   return (
     <>
       <nav className="navbar">
-        <ScrollIntoView selector=".about">
-          <img src={about} alt="about" className="nav-item"></img>
+        <ScrollIntoView selector=".hr">
+          <img src={about} alt="about-me" className="nav-item"></img>
         </ScrollIntoView>
         <img src={skills} alt="skills" className="nav-item"></img>
         <img src={experience} alt="experience" className="nav-item"></img>
         <img src={projects} alt="project" className="nav-item"></img>
         <img src={contactme} alt="contactme" className="nav-item"></img>
       </nav>
-      <Header className="header"/>
-      <hr className="hr"/>
-      <div className="about">
-        <About />
+      <div className="home">
+        <Header className="header"/>
+        <hr className="hr"/>
+        <div className="about">
+          <About />
+        </div>
       </div>
     </>
 

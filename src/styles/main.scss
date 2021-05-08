@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
-
 .navbar{
   background-color: black;
   color: white;
@@ -87,6 +85,12 @@
   // font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   // width: 50vw;
+  margin-bottom: -5px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
 }
 .about-section{
   display: flex;
