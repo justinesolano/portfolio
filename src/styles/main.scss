@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
 
 .navbars{
   background-color: black;
@@ -28,7 +28,7 @@
   font-size: 100px;
   font-family: 'Permanent Marker', cursive;
   height: 150px;
-  background-image: url('../assets/splatter.png');
+  background-image: url('../assets/paintbrush.png');
   // background-color: black;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,11 +53,19 @@
 
 .hr{
   width: 1000px;
+}
+.hr-two{
+  width: 1000px;
 
 }
 .hr-div{
   display: flex;
   justify-content: center;
+}
+.hr-div-two{
+  display: flex;
+  justify-content: center;
+  margin-top: -140px;
 }
 
 .about{
@@ -65,28 +73,101 @@
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
   // font-size: 50px;
+  margin: 0px
+}
+.experience{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  // font-size: 50px;
   margin: 20px
 }
-.about-me{
+.experience-me{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
-  width: 50vw;
+  // width: 50vw;
+}
+
+.about-me{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  // width: 50vw;
 }
 .about-column{
-  margin: 28px;
+  margin: 15px;
   margin-top: 0px;
+}
+.coding{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 682px;
+}
+// .col{
+
+// }
+.coding-title{
+  font-size: 25px;
+  display: flex;
+  // justify-content: center;
+  text-decoration: underline;
+}
+.management{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 580px;
+}
+.design{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 275px;
 }
 .icons{
   display: flex;
   justify-content: center;
   margin: 15px;
+  // margin-top: 20px;
 }
 .icon{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
   margin: 19px;
   margin-top: 5px;
+  // height: 30px;
 }
+.bulma{
+  margin-left: 23px;
+}
+.semantic{
+  height: 65px;
+  width: 60px;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+.semanticui{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.node{
+  margin-left: 20spx;
+}
+.photoshop{
+  margin-top: 22px;
+  margin-left: 40px;
+}
+.design{
+  margin-top: -20px;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -98,12 +179,67 @@
   text-align: justify;
   // text-justify: inter-word;
 }
-
-
 .episode{
   // text-decoration: none;
   color: black;
 }
+
+// EXPERIENCE 
+.ga-logo{
+  height: 60px;
+  display: flex;
+  margin-left: 40px;
+}
+.liverpool{
+  margin-top: -200px;
+// display: flex;
+// justify-content: center;
+// flex-direction: column;
+}
+.liv-logo{
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+}
+.liv-img{
+  display: flex;
+  justify-content: center;
+}
+.spire-logo{
+  height: 90px;
+  margin-top: 20px;
+}
+.spirelogo{
+  display: flex;
+  justify-content: center;
+}
+.col.experience-col{
+  font-size: 20px;
+  margin: 5px;
+  width: 250px;
+}
+.row.experience{
+  margin: 10px;
+  width: 600px;
+
+}
+.sei{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+.sei-details{
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sei-description{
+  text-align: justify;
+  font-size: 15px;
+}
+
 
 @media only screen and (max-width: 1000px) and (min-width: 700px){
   .about-section{
