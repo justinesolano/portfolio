@@ -4,6 +4,7 @@ import Header from './Header'
 import About from './About'
 import Experience from './Experience'
 import Projects from './Projects'
+import Contact from './Contact'
 import geometry from '../assets/geometry.png'
 
 // import about from '../assets/about.png'
@@ -44,6 +45,7 @@ const Home = () => {
         </div>
         <br />
         <br />
+        <br />
         <div className="about">
           <About />
         </div>
@@ -51,7 +53,8 @@ const Home = () => {
           <hr className="hr-two"/>
         </div>
         <br />
-        {/* <br /> */}
+        <br />
+        <br />
         <div className="experience">
           <Experience />
         </div>
@@ -60,9 +63,22 @@ const Home = () => {
         </div>
         <br />
         <br />
+        <br />
         <div className="projects">
           <Projects />
         </div>
+        <div className="hr-div-four">
+          <hr className="hr-four"/>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div className="contact">
+          <Contact />
+        </div>
+        <br />
+        <br />
+        <br />
       </div>
     </>
 

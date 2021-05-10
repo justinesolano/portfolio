@@ -188,14 +188,11 @@ to {top:200px; opacity: 1;}
   3px 3px 5px rgb(255, 255, 255); 
 }
 
-.hr{
+.hr, .hr-two, .hr-three, .hr-four{
   width: 1000px;
 }
-.hr-two{
-  width: 1000px;
 
-}
-.hr-div{
+.hr-div, .hr-div-three, .hr-div-four{
   display: flex;
   justify-content: center;
 }
@@ -203,6 +200,9 @@ to {top:200px; opacity: 1;}
   display: flex;
   justify-content: center;
   margin-top: -140px;
+}
+.hr-div-three{
+margin-top: -100px;
 }
 
 .about{
@@ -218,7 +218,7 @@ to {top:200px; opacity: 1;}
   color: black;
   font-family: 'Raleway', sans-serif;
   // font-size: 50px;
-  margin: 20px
+  // margin: 20px
 }
 .experience-me{
   display: flex;
@@ -229,6 +229,10 @@ to {top:200px; opacity: 1;}
   text-shadow: 2px 2.5px 2.5px #000, 
   3px 3px 5px rgb(255, 255, 255); 
   // width: 50vw;
+}
+.container.experience-container{
+  display: flex;
+  justify-content: center;
 }
 
 .about-me{
@@ -360,29 +364,30 @@ to {top:200px; opacity: 1;}
   justify-content: center;
 }
 .col.experience-col{
-  font-size: 20px;
-  margin: 5px;
-  width: 250px;
+  font-size: 25px;
+  margin: 40px;
 }
 .row.experience{
-  margin: 10px;
-  width: 600px;
+  margin: 20px;
+  width: 800px;
+  
 
 }
 .sei{
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   margin-top: 20px;
 }
 .sei-details{
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   display: flex;
   justify-content: center;
 }
 .sei-description{
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .project-title{
@@ -413,6 +418,7 @@ to {top:200px; opacity: 1;}
 .slider-settings{
   height: 450px;  
   width: 500px;
+  z-index: 0;
 //   display: flex;
 // flex-direction: row;
 }
@@ -421,12 +427,20 @@ to {top:200px; opacity: 1;}
   width: 50px;
   background-color: rgb(0, 0, 0);
 }
-.project-details{
+.project-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 450px;
   margin-left: 40px;
+  margin-top: -20px;
+}
+.project-details-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  margin-right: 40px;
   margin-top: -20px;
 }
 // .slider-one{
@@ -442,19 +456,44 @@ to {top:200px; opacity: 1;}
   display: flex;
   justify-content: space-between;
 }
-.project-four{
+.project-four, .project-three {
   display: flex;
   justify-content: center;
   text-decoration: underline;
   font-weight: bold;
 }
-.project-four-description{
-  font-weight: bold;
-  font-size: 16px;
+.project-four-description, .project-three-description{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
 }
 .project-links{
   text-decoration: none !important;
   color:black;
+}
+.project-logo{
+  margin-left: 125px;
+  margin-top: 12px;
+  height: 40px;
+  width: 200px;
+}
+.project-logo.jetflix{
+  margin-left: 150px;
+  margin-top: 12px;
+  height: 40px;
+  width: 150px;
+}
+.project-logo.lotr{
+  margin-left: 40px;
+  margin-top: 12px;
+  height: 40px;
+  width: 370px;
+}
+.project-logo.frodder{
+  margin-left: 125px;
+  margin-top: 12px;
+  height: 40px;
+  width: 200px;
 }
 
 

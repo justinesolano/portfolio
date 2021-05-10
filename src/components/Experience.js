@@ -9,6 +9,7 @@ const Experience = () => {
     <>
       <div>
         <h1 className="experience-me">experience & education</h1>
+        <br />
         <div className="container experience-container">
           <div className="experience">
             <div className="row experience">
@@ -36,17 +37,17 @@ const Experience = () => {
                   </p>
                 </div>
               </div>
+              <div className="liverpool">
+                <div className="liv-img">
+                  <img src={liv} alt="liv" className="liv-logo"></img>
+                </div>
+                <p className="sei">Philosophy BA Hons</p>
+                <div className="sei-details">
+                  <p> Liverpool, UK | 2017 - 2020</p>
+                  <br/>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="liverpool">
-          <div className="liv-img">
-            <img src={liv} alt="liv" className="liv-logo"></img>
-          </div>
-          <p className="sei">Philosophy BA Hons</p>
-          <div className="sei-details">
-            <p> Liverpool, UK | 2017 - 2020</p>
-            <br/>
           </div>
         </div>
       </div>

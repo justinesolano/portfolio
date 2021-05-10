@@ -35,6 +35,7 @@ const About = () => {
           <FontAwesomeIcon icon={faPen} className="icons fa-3x"/>
           <FontAwesomeIcon icon={faGamepad} className="icons fa-3x"/>
         </div>
+        <br />
         <div className="container">
           <div className="row">
             <div className="col">
