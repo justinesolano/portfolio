@@ -24,11 +24,6 @@ import { FaTrello } from 'react-icons/fa'
 import { SiVisualstudiocode } from 'react-icons/si'
 
 
-
-
-
-
-
 const About = () => {
   
   return (

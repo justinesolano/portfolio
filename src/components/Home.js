@@ -4,36 +4,38 @@ import Header from './Header'
 import About from './About'
 import Experience from './Experience'
 import Projects from './Projects'
+import geometry from '../assets/geometry.png'
 
-
-
-// import disableScroll from 'disable-scroll'
-
-import about from '../assets/about.png'
-import contactme from '../assets/contactme.png'
-import experience from '../assets/experience.png'
-import projects from '../assets/projects.png'
+// import about from '../assets/about.png'
+// import contactme from '../assets/contactme.png'
+// import experience from '../assets/experience.png'
+// import projects from '../assets/projects.png'
 
 
 const Home = () => {
-
-  // const fieldRef = React.useRef<HTMLInputElement>(null)
-
 
   return (
     <>
       <nav className="navbars">
         <ScrollIntoView selector=".hr">
-          <img src={about} alt="about-me" className="nav-item"></img>
+          <p className="nav-item">about</p>
+          {/* <img src={about} alt="about-me" className="nav-item"></img> */}
         </ScrollIntoView>
         <ScrollIntoView selector=".hr-two">
-          <img src={experience} alt="experience" className="nav-item"></img>
+          <p className="nav-item">experience</p>
+          {/* <img src={experience} alt="experience" className="nav-item"></img> */}
+        </ScrollIntoView>
+        <ScrollIntoView selector=".top">
+          <img src={geometry} alt="home" className="geometry nav-item"></img>
         </ScrollIntoView>
         <ScrollIntoView selector=".hr-three">
-          <img src={projects} alt="project" className="nav-item"></img>
+          <p className="nav-item">projects</p>
+          {/* <img src={projects} alt="project" className="nav-item"></img> */}
         </ScrollIntoView>
-        <img src={contactme} alt="contactme" className="nav-item"></img>
+        <p className="nav-item">contact me</p>
+        {/* <img src={contactme} alt="contactme" className="nav-item"></img> */}
       </nav>
+      <div className="top"></div>
       <div className="home">
         <Header className="header"/>
         <br />

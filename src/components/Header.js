@@ -28,20 +28,28 @@ const Header = () => {
   
   return (
     <>
-      <div className="header">
+      <div className="headers">
         <div className="justine-solano">
+          <br />
+          <br />
+          <br />
           <h1 className="heading">Justine Solano</h1>
         </div>
         <div className="me-list">
-          <p className="adjectives">developer.</p>
-          <p className="adjectives writer">writer.</p>
+          <p className="adjectives fade-in">developer | writer | gamer | chef</p>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          {/* <p className="adjectives writer">writer.</p>
           <p className="adjectives">film fanatic.</p>
           <p className="adjectives gamer">gamer.</p>
           <p className="adjectives traveller">traveller.</p>
           <p className="adjectives">fitness enthusiast.</p>
           <p className="adjectives">music lover.</p>
           <p className="adjectives">chef.</p>
-          <p className="adjectives">philosopher.</p>
+          <p className="adjectives">philosopher.</p> */}
         </div>
       </div>
       {/* <div className="some-page-wrapper">
