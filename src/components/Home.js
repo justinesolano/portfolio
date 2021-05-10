@@ -51,12 +51,14 @@ const Home = () => {
           <hr className="hr-two"/>
         </div>
         <br />
+        {/* <br /> */}
         <div className="experience">
           <Experience />
         </div>
         <div className="hr-div-three">
           <hr className="hr-three"/>
         </div>
+        <br />
         <br />
         <div className="projects">
           <Projects />
