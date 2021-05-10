@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
-import Projects from './components/Projects'
+// import Projects from './components/Projects'
 
 // import Nav from './components/Nav'
 
@@ -13,9 +13,9 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="projects">
+        {/* <Route path="projects">
           <Projects />
-        </Route>
+        </Route> */}
       </Switch>
     </BrowserRouter>
   )

@@ -399,13 +399,26 @@ to {top:200px; opacity: 1;}
   justify-content: center;
   // font-size: 70px;
 }
-.slider{
-  height: 500px;
-}
-.sliders{
-  font-size: 30px;
+.projects{
+  display: flex;
+  justify-content: center;
   color: black;
+  font-family: 'Raleway', sans-serif;
+  // font-size: 50px;
+  margin: 20px;
+  height: 70vh;
 }
+.col.project{
+  background-color: black;
+}
+// .slide{
+//   height: 500px;
+//   width: 100px;
+// }
+// .sliders{
+//   font-size: 30px;
+//   color: black;
+// }
 // // .project{
 // //   background-color: black;
 // // }
