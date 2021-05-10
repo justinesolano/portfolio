@@ -50,7 +50,6 @@ const About = () => {
     Outside of being a developer, I love writing and have been doing it since I was young. I have been working on a coming-of-age novel since 2016. I am currently writing/coding an original fantasy story with 12 published chapters and over 9000 reads. You can check it out <a href="http://episodeinteractive.com/s/6014349999407104" className="episode">here</a> on your phone!
                 <br />
                 <br />
-
     I also love playing video games. My favourite games to play are Overwatch, Valheim, Minecraft, and my favourite RPG&apos;s are Skyrim and Witcher 3. I am also a master at Tetris.
               </p>
             </div>

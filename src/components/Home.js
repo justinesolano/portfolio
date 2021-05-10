@@ -3,7 +3,7 @@ import ScrollIntoView from 'react-scroll-into-view'
 import Header from './Header'
 import About from './About'
 import Experience from './Experience'
-import Projects from './Projects'
+// import Projects from './Projects'
 import geometry from '../assets/geometry.png'
 
 // import about from '../assets/about.png'
@@ -58,9 +58,9 @@ const Home = () => {
           <hr className="hr-three"/>
         </div>
         <br />
-        <div className="experience">
+        {/* <div className="projects">
           <Projects />
-        </div>
+        </div> */}
       </div>
     </>
 
