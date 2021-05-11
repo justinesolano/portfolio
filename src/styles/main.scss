@@ -148,24 +148,24 @@ to {top:200px; opacity: 1;}
   display: flex;
   justify-content: center;
 }
-* {
-  box-sizing: border-box;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
 /* Create two equal columns that floats next to each other */
-.columns {
-  float: right;
-  width: 100px;
-  padding: 10px;
-  height: 100px; /* Should be removed. Only for demonstration */
-}
+// .columns {
+//   float: right;
+//   width: 100px;
+//   padding: 10px;
+//   height: 100px; /* Should be removed. Only for demonstration */
+// }
 
-/* Clear floats after the columns */
-.rows {
-display: flex;
-justify-content: flex-end;
-// flex-direction: row;
-}
+// /* Clear floats after the columns */
+// .rows {
+// display: flex;
+// justify-content: flex-end;
+// // flex-direction: row;
+// }
 
 .navbar{
   margin-top: 100px;
@@ -550,6 +550,31 @@ margin-top: -100px;
 
 .contact{
   // width: 110vh;
-  height: 10vh;
+  height: 20.5vh;
   background-color: black;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
 }
+.contact-me{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 45px;
+  
+}
+
+.rows {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px;
+  // height: 300px; /* Should be removed. Only for demonstration */
+}
+.copyright{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+

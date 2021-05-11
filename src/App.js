@@ -8,14 +8,10 @@ import Home from './components/Home'
 function App() {
   return (
     <BrowserRouter>
-      {/* <Nav /> */}
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
-        {/* <Route path="projects">
-          <Projects />
-        </Route> */}
       </Switch>
     </BrowserRouter>
   )

@@ -68,36 +68,22 @@ const Home = () => {
               <p className="nav-item">projects</p>
               {/* <img src={projects} alt="project" className="nav-item"></img> */}
             </ScrollIntoView>
-            <p className="nav-item">contact me</p>
+            <ScrollIntoView selector=".contact">
+              <p className="nav-item">contact me</p>
+            </ScrollIntoView>
             {/* <img src={contactme} alt="contactme" className="nav-item"></img> */}
           </div>
         </nav>
         :
         <nav className="navbars">
           {/* <Nav/> */} 
-          {/* <div className="row">
-            <div className="column-nav">
-              <ScrollIntoView selector=".top">
-                <img src={geometry} alt="home" className="geometry nav-item"></img>
-              </ScrollIntoView>
-            </div>
-            <div className="containers column-nav">
-              <div className="bar1"></div>
-              <div className="bar2"></div>
-              <div className="bar3"></div>
-            </div>
-          </div> */}
-          <div className="rows">
-            <div className="columns">
-              <ScrollIntoView selector=".top">
-                <img src={geometry} alt="home" className="geometry nav-item"></img>
-              </ScrollIntoView>
-            </div>
-            <div className="columns">
-              <div className="bar1"></div>
-              <div className="bar2"></div>
-              <div className="bar3"></div>
-            </div>
+          <ScrollIntoView selector=".top">
+            <img src={geometry} alt="home" className="geometry nav-item"></img>
+          </ScrollIntoView>
+          <div className="containers">
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
           </div>
           {/* <div className="container">
             <div className="bar1"></div>
@@ -105,6 +91,9 @@ const Home = () => {
             <div className="bar3"></div>
           </div> */}
           <Menu className="burger" pageWrapId={'containers'} {...showSettings} right >
+            <ScrollIntoView selector=".top">
+              <p className="nav-item burger">home</p>
+            </ScrollIntoView>
             <ScrollIntoView selector=".hr">
               <p className="nav-item burger">about</p>
               {/* <img src={about} alt="about-me" className="nav-item"></img> */}
