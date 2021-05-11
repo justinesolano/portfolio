@@ -29,7 +29,7 @@ const About = () => {
   return (
     <>
       <div className="about-container wrapper" id="slide">
-        <h1 className="about-me">about me</h1>
+        <h1 className="about-me animate__animated animate__backInLeft">about me</h1>
         <div className="icons">
           <FontAwesomeIcon icon={faLaptopCode} className="icons fa-3x"/>
           <FontAwesomeIcon icon={faPen} className="icons fa-3x"/>
