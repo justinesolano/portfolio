@@ -687,7 +687,7 @@ margin-top: -100px;
     }
     }
 
-      @media only screen and (max-width: 450px)  {
+      @media only screen and (max-width: 450px) and (min-width: 321px) {
         .heading{
           font-size: 60px;
         }
@@ -715,6 +715,9 @@ margin-top: -100px;
         .project-details.four, .project-details.three{
           width: 300px;
         }
+        .project-four{
+          font-size: 20px;
+        }
         .project-details-two{
           width: 340px;
           padding-left: 50px;
@@ -741,3 +744,76 @@ margin-top: -100px;
           margin-right: -100px;
         }
       }
+
+      @media only screen and (max-width: 320px) {
+  
+        .heading{
+          font-size: 45px;
+        }
+        .adjectives{
+          margin-top: -80px;
+          font-size: 18px;
+        }
+        .about-me{
+          font-size: 50px;
+        }
+        .about-column{
+          width: 330px;
+          padding-left: 100px;
+        }
+        .coding-title{
+          font-size: 20px;
+        }
+        .experience-me{
+          font-size: 40px;
+        }
+
+        .row.experience{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 300px;
+          margin-left: -55px;
+        }
+        .project-four-description{
+          width: 300px;
+          margin-left: 15px;
+        }
+        .project-links{
+          margin-left: 10;
+        }
+        .col.project.slider-one{
+          width: 100px;
+        }
+        .col.project.slider-one{
+          width: 400px;
+        }
+        .project-details.four, .project-details.three{
+          width: 300px;
+        }
+        .project-details-two{
+          width: 340px;
+          padding-left: 50px;
+        }
+        .project-logo{
+          margin-left: 50px;
+        }
+        .project-logo.jetflix{
+          margin-left: 66px;
+        }
+        .project-logo.lotr{
+          margin-left: -20px;
+        }
+        .project-logo.frodder{
+          margin-left: 50px;
+        }
+        .burger{
+          margin-top: 0px;
+          padding-left: 80px;
+        }
+        .nav-item.burger{
+          width: 200px;
+          font-size: 15px;
+          margin-right: -200px;
+        }
+        }

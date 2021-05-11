@@ -94,7 +94,7 @@ const Projects = () => {
             <div data-src={resources} style={{ width: 600, height: 300 }} className="slide"></div>
           </AwesomeSlider>
           <div className="project-details three">
-            <h4 className="project-four">Project Two: Lord of the Rings Quiz</h4>
+            <h4 className="project-four">Project Two: LotR Quiz</h4>
             <img src={lotr} alt="jetflix" className="project-logo lotr"></img>
             <br />
             <p className="project-four-description">2-person hackathon. Front-end React app using an external API. Users can play two 20-question LotR quizzes: &quot;Guess who said this quote&quot; & &quot;Guess which movie this quote is from&quot;. Scores are tracked and players get a different reaction gif at the end depending on their score. </p>
