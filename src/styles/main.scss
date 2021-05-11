@@ -626,7 +626,7 @@ margin-top: -100px;
       }
       }
 
-      @media only screen and (max-width: 795px)  {
+      @media only screen and (max-width: 795px) and (min-width: 768px) {
   
         .adjectives{
           margin-top: 140px;
@@ -634,7 +634,7 @@ margin-top: -100px;
           font-size: 40px;
         }
         }
-      @media only screen and (max-width: 767px)  {
+      @media only screen and (max-width: 767px) and (min-width: 601px) {
   
         .about-column{
         width: 500px;      
@@ -642,8 +642,11 @@ margin-top: -100px;
         }
 
 
-  @media only screen and (max-width: 600px)  {
-  
+  @media only screen and (max-width: 600px) and (min-width: 451px) {
+    .container.experience-container{
+      margin: 0px;
+      margin-bottom: 100px;
+    }
     .about-column{
     width: 600px; 
     margin-left: -90px;     
@@ -678,6 +681,9 @@ margin-top: -100px;
     }
     .project-links.one{
       margin-left: 40px;
+    }
+    .nav-item.burger{
+      margin-left: 100px;
     }
     }
 
