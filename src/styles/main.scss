@@ -8,6 +8,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 .fade-in {
   animation: fadeIn ease 5s;
@@ -566,33 +572,8 @@ margin-top: -100px;
   font-weight: bold;
 }
 
-@media only screen and (max-width: 795px)  {
-  
-  // .headers{
-  //   display: flex;
-  //   align-content: center;
-  // }
-  // .heading{
-  //   display: flex;
-  //   justify-content: center;
-  //   margin-top: -100px;
-  //   margin-left: 200px;
-  // }
-  .adjectives{
-    margin-top: 140px;
-    // margin-left: -790px;
-    font-size: 40px;
-  }
 
-  }
 
-  @media only screen and (max-width: 767px)  {
-  
-    .about-column{
-    width: 500px;      
-    }
-  
-    }
     @media only screen and (max-width: 1180px)  {
       .heading{
         font-size: 90px;
@@ -644,6 +625,61 @@ margin-top: -100px;
         width: 350px;
       }
       }
+
+      @media only screen and (max-width: 795px)  {
+  
+        .adjectives{
+          margin-top: 140px;
+          // margin-left: -790px;
+          font-size: 40px;
+        }
+        }
+      @media only screen and (max-width: 767px)  {
+  
+        .about-column{
+        width: 500px;      
+        }
+        }
+
+
+  @media only screen and (max-width: 600px)  {
+  
+    .about-column{
+    width: 600px; 
+    margin-left: -90px;     
+    }
+    .heading{
+      font-size: 80px;
+      margin-bottom: -180px;
+    }
+    .adjectives{
+      font-size: 30px;
+    }
+    .about-column.coding{
+      margin-left: 20px;
+    }
+    .experience{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 100px;
+
+    }
+    .col.experience-col{
+      width: 450px;
+      margin-left: 260px;
+    }
+    .project-three-description{
+      width: 550px;
+      margin-left: 40px;
+    }
+    .project-links.three{
+      margin-left: 40px;
+    }
+    .project-links.one{
+      margin-left: 40px;
+    }
+    }
 
       @media only screen and (max-width: 450px)  {
         .heading{
