@@ -8,70 +8,25 @@ import React from 'react'
 // import projects from '../assets/projects.png'
 // import skills from '../assets/skills.png'
 // import geometry from '../assets/geometry.png'
+import { slide as Menu } from 'react-burger-menu'
 
 
 const Nav = () => {
+
+
+  const showSettings = (event) => {
+    event.preventDefault()
+  }
+
+  
+
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
-          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="hellow"/>
-        </a>
-
-        <a href="hello" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarBasicExample" className="navbar-menu">
-        <div className="navbar-start">
-          <a href="hello" className="navbar-item">
-        Home
-          </a>
-
-          <a href="hello" className="navbar-item">
-        Documentation
-          </a>
-
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a href="hello" className="navbar-link">
-          More
-            </a>
-
-            <div className="navbar-dropdown">
-              <a href="hello" className="navbar-item">
-            About
-              </a>
-              <a href="hello" className="navbar-item">
-            Jobs
-              </a>
-              <a href="hello" className="navbar-item">
-            Contact
-              </a>
-              <hr className="navbar-divider"/>
-              <a href="hello" className="navbar-item">
-            Report an issue
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <div className="buttons">
-              <a href="hello" className="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a href="hello" className="button is-light">
-            Log in
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <Menu className="burger">
+      <a id="home" className="menu-item" href="/">Home</a>
+      <a id="about" className="menu-item" href="/about">About</a>
+      <a id="contact" className="menu-item" href="/contact">Contact</a>
+      <button onClick={showSettings} className="menu-item--small" href="">Settings</button>
+    </Menu>
   )
 }
 

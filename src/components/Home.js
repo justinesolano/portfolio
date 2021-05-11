@@ -4,10 +4,11 @@ import Header from './Header'
 import About from './About'
 import Experience from './Experience'
 // import Nav from './Nav'
-
+// import { slide as Menu } from 'react-burger-menu'
 import Projects from './Projects'
 import Contact from './Contact'
 import geometry from '../assets/geometry.png'
+import { slide as Menu } from 'react-burger-menu'
 // import { layoutGenerator } from 'react-break'
 // import { get } from 'react-scroll/modules/mixins/scroller'
 
@@ -23,7 +24,6 @@ function getWindowDimensions() {
     height,
   }
 }
-
 
 const Home = () => {
 
@@ -41,9 +41,16 @@ const Home = () => {
 
   console.log('WINDOW DIMENSION', windowDimensions)
 
+
+  const showSettings = (event) => {
+    event.preventDefault()
+  }
+
+  
+
   return (
     <>
-      { windowDimensions. width > 700 ?
+      { windowDimensions. width > 800 ?
         <nav>
           <div className="navbars">
             <ScrollIntoView selector=".hr">
@@ -66,31 +73,54 @@ const Home = () => {
           </div>
         </nav>
         :
-        <nav className="navbar" role="navigation" aria-label="main navigation">
-          <div className="navbar-brand">
+        <nav className="navbars">
+          {/* <Nav/> */} 
+          {/* <div className="row">
+            <div className="column-nav">
+              <ScrollIntoView selector=".top">
+                <img src={geometry} alt="home" className="geometry nav-item"></img>
+              </ScrollIntoView>
+            </div>
+            <div className="containers column-nav">
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
+          </div> */}
+          <div className="rows">
+            <div className="columns">
+              <ScrollIntoView selector=".top">
+                <img src={geometry} alt="home" className="geometry nav-item"></img>
+              </ScrollIntoView>
+            </div>
+            <div className="columns">
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
+          </div>
+          {/* <div className="container">
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+          </div> */}
+          <Menu className="burger" pageWrapId={'containers'} {...showSettings} right >
             <ScrollIntoView selector=".hr">
-              <p className="navbar-item">about</p>
+              <p className="nav-item burger">about</p>
               {/* <img src={about} alt="about-me" className="nav-item"></img> */}
             </ScrollIntoView>
             <ScrollIntoView selector=".hr-two">
-              <p className="navbar-item">experience</p>
+              <p className="nav-item burger">experience</p>
               {/* <img src={experience} alt="experience" className="nav-item"></img> */}
             </ScrollIntoView>
-            <ScrollIntoView selector=".top">
-              <img src={geometry} alt="home" className="geometry nav-item"></img>
-            </ScrollIntoView>
             <ScrollIntoView selector=".hr-three">
-              <p className="navbar-item">resized</p>
+              <p className="nav-item burger">projects</p>
               {/* <img src={projects} alt="project" className="nav-item"></img> */}
             </ScrollIntoView>
-            <p className="navbar-item">contact me</p>
-            {/* <img src={contactme} alt="contactme" className="nav-item"></img> */}
-            <a href="hello" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
+            <ScrollIntoView selector=".contact">
+              <p className="nav-item burger">contact me</p>
+            </ScrollIntoView>
+          </Menu>
         </nav>
       }
       <div className="top"></div>
