@@ -319,8 +319,8 @@ margin-top: -100px;
 }
 .design{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  // flex-wrap: wrap;
   width: 275px;
 }
 .icons{

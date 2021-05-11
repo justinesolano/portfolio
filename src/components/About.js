@@ -82,9 +82,11 @@ const About = () => {
                 <p className="icon"> <SiNetlify size={65} /> Netlify </p>
               </div>
               <h4 className="coding-title design">DESIGN</h4>
-              <div className="design">
-                <p className="icon photoshop"> <DiPhotoshop size={65} /> Adobe <br />Photoshop</p>
-                <p className="icon"> <FaTrello size={65} /> Trello</p>
+              <div className="management">
+                <div className="design">
+                  <p className="icon photoshop"> <DiPhotoshop size={65} /> Adobe <br />Photoshop</p>
+                  <p className="icon"> <FaTrello size={65} /> Trello</p>
+                </div>
               </div>
             </div>
           </div>
