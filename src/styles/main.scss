@@ -117,6 +117,16 @@ to {top:10px; opacity: 1}
 from {top:0px; opacity: 0;}
 to {top:200px; opacity: 1;}
 }
+.navbar{
+  margin-top: 100px;
+  height: 20vh;
+  width: 600px;
+  background-color: grey;
+  color: black;
+}
+.home{
+  height: 100px;
+}
 
 .navbars{
   background-color: black;
@@ -443,14 +453,6 @@ margin-top: -100px;
   margin-right: 40px;
   margin-top: -20px;
 }
-// .slider-one{
-//   width: 600px;
-//   font-size: 30px;
-//   color: black;
-// }
-// // .project{
-// //   background-color: black;
-// // }
 .col.project.slider-one{
   margin-top: 50px;
   display: flex;
@@ -496,158 +498,8 @@ margin-top: -100px;
   width: 200px;
 }
 
-
-@media only screen and (max-width: 1000px) and (min-width: 700px){
-  .about-section{
-    margin: 150px;
-    margin-top: 0px;
-  }
+.contact{
+  // width: 110vh;
+  height: 10vh;
+  background-color: black;
 }
-
-@media only screen and (max-width: 769px) and (min-width: 744px){
-  .about-section{
-    margin: 100px;
-    margin-top: 0px;
-  }
- 
-}
-@media only screen and (max-width: 737px) and (min-width: 680px){
-  .about-section{
-    margin: 100px;
-    margin-top: 0px;
-  }
-  @media only screen and (max-width: 835px) and (min-width: 536px){
-    .header{
-      display: flex;
-      // justify-content: center;
-      justify-content: flex-end;
-      align-content: center;
-      background-color: black;
-      border-radius: 20px;
-      color: white;
-    }
-    .heading, .me-list{
-    display: flex;
-    justify-content: center;
-    }
-    .heading{
-      display: flex;
-      // justify-content: flex-end;
-      align-items: center;
-    }
-    .writer, .gamer {
-      margin-left: -100px;
-    }
-    .traveller{
-      margin-left: -70px;
-    }
-  }
-
-
-  // .justine-solano {
-  //   display: flex;
-  //   justify-content: center;
-
-  //   // flex-direction: row;
-  //   // flex-wrap: wrap;
-  //   width: 165%;
-  //   // background-color: purple;
-  // }
-  
-  // .iam{
-  //   display: flex;
-  //   // flex-direction: row;
-  //   align-content: flex-end;
-  //   // flex-basis: 100%;
-  //   // flex: 1;
-  //   // display: none;
-  //   margin-top: 170px;
-  //   margin-left: -180px;
-  //   color: white;
-  //   font-size: 55px;
-
-  // }
-}
-// @media only screen and (max-width: 679px) and (min-width: 659px){
-//   // .about-section{
-//   //   margin: 100px;
-//   //   margin-top: 0px;
-//   // }
-//   // .justine-solano {
-//   //   // display: flex;
-//   //   // justify-content: center;
-//   //   // flex-direction: row;
-//   //   // flex-wrap: wrap;
-//   //   // width: 300%;
-//   //   // background-color: purple;
-//   // }
-  
-//   .iam{
-//     display: flex;
-//     // flex-direction: row;
-//     // align-content: flex-end;
-//     // flex-basis: 100%;
-//     // flex: 1;
-//     // display: none;
-//     margin-top: -170px;
-//     margin-left: -180px;
-//     color: white;
-//     font-size: 20px;
-
-//   }
-// }
-
-
-
-
-// .some-page-wrapper {
-//   margin: 100px;
-//   display: flex;
-//   justify-content: flex-end;
-//   align-content: center;
-//   // background-color: red;
-//   font-family: 'Montserrat', sans-serif;
-//   margin-top: 100px;
-// }
-
-// .row {
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   width: 100%;
-// }
-
-// .column {
-//   display: flex;
-//   flex-direction: column;
-//   flex-basis: 100%;
-//   flex: 1;
-// }
-
-// .justine-solano {
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: flex-start;
-//   background-color: black;
-//   height: 715px;
-//   // width: 600px;
-//   font-size: 75px;
-//   color: white;
-//   border-radius: 25px;
-// }
-// .justine-is{
-//   color: black;
-// }
-// .iam {
-//   // background-color: green;
-//   height: 100px;
-//   width: 100px;
-//   color: black;
-//   // display: flex;
-//   // justify-content: flex-start;
-//   // align-items: flex-end;
-//   font-size: 75px;
-// }
-// .adjectives{
-//   margin: 0px;
-// }

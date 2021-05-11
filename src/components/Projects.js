@@ -136,22 +136,3 @@ const Projects = () => {
 export default Projects
 
 
-{/* <div className="project">
-<h1 className="project-title">projects</h1>
-<div className="container projects">
-  <div className="row projects">
-    <div className="col project">
-      <Slider>
-        <div>
-          <img src={bulma} alt="slide"></img></div>
-        <div>child 1</div>
-        <div>child 1</div>
-      </Slider>
-    </div>
-    <div className="col project">Column</div>
-    <div className="w-100"></div>
-    <div className="col project">Column</div>
-    <div className="col project">Column</div>
-  </div>
-</div>
-</div> */}
