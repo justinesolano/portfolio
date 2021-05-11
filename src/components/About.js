@@ -28,7 +28,7 @@ const About = () => {
   
   return (
     <>
-      <div className="about-container">
+      <div className="about-container wrapper" id="slide">
         <h1 className="about-me">about me</h1>
         <div className="icons">
           <FontAwesomeIcon icon={faLaptopCode} className="icons fa-3x"/>
@@ -54,7 +54,7 @@ const About = () => {
     I also love playing video games. My favourite games to play are Overwatch, Valheim, Minecraft, and my favourite RPG&apos;s are Skyrim and Witcher 3. I am also a master at Tetris.
               </p>
             </div>
-            <div className="col">
+            <div className="col coding">
               <h4 className="coding-title">DEVELOPMENT</h4>
               <p className="about-column coding">
                 <p className="icon"> <FaHtml5 size={65} />HTML</p>
@@ -81,7 +81,7 @@ const About = () => {
                 <p className="icon"> <SiHeroku size={65} /> Heroku</p>
                 <p className="icon"> <SiNetlify size={65} /> Netlify </p>
               </div>
-              <h4 className="coding-title">DESIGN</h4>
+              <h4 className="coding-title design">DESIGN</h4>
               <div className="design">
                 <p className="icon photoshop"> <DiPhotoshop size={65} /> Adobe <br />Photoshop</p>
                 <p className="icon"> <FaTrello size={65} /> Trello</p>

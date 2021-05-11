@@ -1,8 +1,6 @@
 import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
-// import AutoplaySlider from 'react-awesome-slider'
-
 import projectfour from '../assets/projectfour.jpg'
 import login from '../assets/login.jpg'
 import register from '../assets/register.jpg'
@@ -30,9 +28,6 @@ import lotr from '../assets/logo.png'
 import frodder from '../assets/frodder.png'
 
 
-
-
-
 const Projects = () => {
   
   return (
@@ -52,7 +47,7 @@ const Projects = () => {
             <div data-src={makepost} style={{ width: 600, height: 300 }} className="slide"></div>
             <div data-src={explore} style={{ width: 600, height: 300 }} className="slide"></div>
           </AwesomeSlider >
-          <div className="project-details">
+          <div className="project-details four">
             <h4 className="project-four">Project Four: GreenHouse</h4>
             <img src={greenhouse} alt="greenhouse" className="project-logo"></img>
             <br />
@@ -98,11 +93,11 @@ const Projects = () => {
             <div data-src={quizend} style={{ width: 600, height: 300 }} className="slide"></div>
             <div data-src={resources} style={{ width: 600, height: 300 }} className="slide"></div>
           </AwesomeSlider>
-          <div className="project-details">
+          <div className="project-details three">
             <h4 className="project-four">Project Two: Lord of the Rings Quiz</h4>
             <img src={lotr} alt="jetflix" className="project-logo lotr"></img>
             <br />
-            <p className="project-four-description">2-person hackathon. Front-end React app using an external <a href="https://the-one-api.dev/" style={{ color: 'black' }}>API</a>. Users can play two 20-question LotR quizzes: &quot;Guess who said this quote&quot; & &quot;Guess which movie this quote is from&quot;. Scores are tracked and players get a different reaction gif at the end depending on their score. </p>
+            <p className="project-four-description">2-person hackathon. Front-end React app using an external API. Users can play two 20-question LotR quizzes: &quot;Guess who said this quote&quot; & &quot;Guess which movie this quote is from&quot;. Scores are tracked and players get a different reaction gif at the end depending on their score. </p>
             <p className="project-links"> 2 days | <a href="https://github.com/justinesolano/sei-project-two/blob/master/README.md" target="_blank" rel="noreferrer" style={{ color: 'black' }}>Read Me</a> | <a href="https://lotrquiz-app.netlify.app/" target="_blank" rel="noreferrer" style={{ color: 'black' }}>Deployed project</a> </p>
           </div>
         </div>  
