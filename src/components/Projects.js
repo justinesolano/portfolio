@@ -22,10 +22,16 @@ import quizend from '../assets/quizend.jpg'
 import resources from '../assets/resources.jpg'
 import gif from '../assets/gameplay.gif'
 import game from '../assets/game.jpg'
-import greenhouse from '../assets/titlelogo.png'
-import jetflix from '../assets/jetflix.png'
-import lotr from '../assets/logo.png'
-import frodder from '../assets/frodder.png'
+import { FaPython } from 'react-icons/fa'
+import { SiDjango } from 'react-icons/si'
+import { SiPostgresql } from 'react-icons/si'
+import { FaReact } from 'react-icons/fa'
+import { SiMongodb } from 'react-icons/si'
+import { SiBulma } from 'react-icons/si'
+import { FaJs } from 'react-icons/fa'
+import { FaCss3Alt } from 'react-icons/fa'
+import { FaHtml5 } from 'react-icons/fa'
+import { FaSass } from 'react-icons/fa'
 
 
 const Projects = () => {
@@ -49,7 +55,9 @@ const Projects = () => {
           <div className="project-details-four">
             <h4 className="project-four-title">Project Four: GreenHouse</h4>
             <div className="project-logo">
-              <img src={greenhouse} alt="greenhouse" className="project-logo"></img>
+              <FaReact size={45} className="icon" />
+              <FaPython size={45} className="icon" />               <SiDjango size={45} className="icon" />              <SiPostgresql size={45} className="icon" />
+              <FaSass size={45} className="icon" />
             </div>
             <br />
             <p className="project-four-description">Solo project. Full-stack Django/React app using an API with CRUD functionality. Allows users to browse the database of houseplants for decor purposes. Also has a social-media function where users can post their own pictures of, like and comment on plants. </p>
@@ -71,7 +79,10 @@ const Projects = () => {
           <div className="project-details-four">
             <h4 className="project-three-title">Project Three: Jetflix</h4>
             <div className="project-logo">
-              <img src={jetflix} alt="jetflix" className="project-logo jetflix" style={{ height: '60px' }}></img>
+              <FaReact size={45} className="icon" />
+              <SiMongodb size={45} className="icon" /> 
+              <SiBulma size={45} className="icon" /> 
+              <FaSass size={45} className="icon" />
             </div>
             <br />
             <p className="project-four-description">4-person project. Full-stack MongoDB/React app using an API with CRUD functionality. Netflix-inspired travel destination app. Allows users to browse for different travel destinations around the world, add them to &apos;My List&apos; just like in Netflix. Also has an Instagram-inspired component where users have a profile page, can add pictures of their travels and like/comment on each other&apos;s posts.  </p>
@@ -93,7 +104,9 @@ const Projects = () => {
           <div className="project-details-four">
             <h4 className="project-two-title">Project Two: LotR Quiz</h4>
             <div className="project-logo">
-              <img src={lotr} alt="lotr" className="project-logo lotr" style={{ height: '45px' }}></img>
+              <FaReact size={45} className="icon" />
+              <SiBulma size={45} className="icon" /> 
+              <FaSass size={45} className="icon" />
             </div>
             <br />
             <p className="project-four-description">2-person hackathon. Front-end React app using an external API. Users can play two 20-question LotR quizzes: &quot;Guess who said this quote&quot; & &quot;Guess which movie this quote is from&quot;. Scores are tracked and players get a different reaction gif at the end depending on their score. </p>
@@ -109,7 +122,10 @@ const Projects = () => {
           <div className="project-details-four">
             <h4 className="project-one-title">Project One: Frodder</h4>
             <div className="project-logo">
-              <img src={frodder} alt="frodder" className="project-logo frodder" style={{ height: '60px' }}></img>
+              <FaHtml5 size={45} className="icon"/>
+              <FaCss3Alt size={45} className="icon" />
+              <FaJs size={45} className="icon" />
+              <FaSass size={45} className="icon" /> 
             </div>
             <br />
             <p className="project-four-description">Solo project. Lord of the Rings-inspired Frogger game created using vanilla JavaScript. The player plays as Frodo who needs to get past rows of Nazgûl and catch the raft on the river to Bree where he needs to meet Gandalf at the Prancing Pony Inn. </p>
