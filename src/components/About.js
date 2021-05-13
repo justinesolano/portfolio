@@ -53,7 +53,7 @@ const About = () => {
         </div>
       </div>
       <div className="two column row">
-        <div className="column">
+        <div className="column" id="management-column">
           <p className="development">development</p>
           <Card.Group itemsPerRow={5}>
             <div className="name">

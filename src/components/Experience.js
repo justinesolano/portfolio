@@ -32,7 +32,7 @@ const Experience = () => {
         <div className="two column centered row">
           <div className="column desc">
             <div className="ga-logo">
-              <img src={ga} alt="ga" className="ga"></img>
+              <img src={ga} alt="ga" className="ga" style={{ height: '65px' }} ></img>
             </div>
             <p className="sei">Software Engineering Immersive</p>
             <div className="sei-details">
