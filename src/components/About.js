@@ -36,7 +36,7 @@ const About = () => {
             <FontAwesomeIcon icon={faPen} className="icons fa-3x"/>
             <FontAwesomeIcon icon={faGamepad} className="icons fa-3x"/>
           </div>
-          <p className="about-me">Hello, my name is Justine! I am a junior full-stack developer & knowledge enthusiast. I live in London and enjoy watching films, listening to music, and travelling.
+          <p className="about-me">Hello, my name is Justine! I am a junior full-stack developer & knowledge enthusiast <span role="img" aria-label="me">👩🏻‍💻 🧐</span>. I live in London and enjoy watching films, listening to music, and travelling.
             <br />
             <br />
     I first got into coding in 2015 when I discovered an app called Episode which allows you to create a visual and interactive version of your story through a coding language called &apos;Donacode&apos;, developed specifically for the app. This allowed me to marry two of my favourite hobbies: writing and creating. As a multipotentialite who, as Frederickson et al. described, is someone who <i>&quot;when provided with  appropriate environments, can select and develop a number of competencies to a high level&quot;</i>, I truly feel that being a developer is one of these competencies.
@@ -45,10 +45,10 @@ const About = () => {
     I love learning and progressing in places that I am passionate about. After graduating university, coding was the only thing that excited me. Enrolling in the Software Engineering course at GA was where I truly felt that I could pursue this. 
             <br />
             <br />
-    Outside of being a developer, I love writing and have been doing it since I was young. I have been working on a coming-of-age novel since 2016. I am currently writing/coding an original fantasy story with 12 published chapters and over 9000 reads. You can check it out <a href="http://episodeinteractive.com/s/6014349999407104" className="episode" style={{ color: 'black' }}>here</a> on your phone! I also make a lot of my own backgrounds and props for the story using Photoshop.
+    Outside of being a developer, I love writing and have been doing it since I was young. I have been working on a coming-of-age novel since 2016. I am currently writing/coding an original fantasy story with 12 published chapters and over 9000 reads. You can check it out <a href="http://episodeinteractive.com/s/6014349999407104" target="__blank" className="episode" style={{ color: 'black' }}>here</a> on your phone! I also make a lot of my own backgrounds and props for the story using Photoshop.
             <br />
             <br />
-    I also love playing video games. My favourite games to play are Overwatch, Valheim, Minecraft, and my favourite RPGs are Skyrim and Witcher 3. I am also a master at Tetris.
+    I also love playing video games. My favourite games to play are Overwatch, Valheim, Minecraft, and my all-time favourite RPGs are Skyrim and Witcher 3. I am also a master at Tetris 👾.
           </p>
         </div>
       </div>
