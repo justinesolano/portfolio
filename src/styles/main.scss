@@ -47,8 +47,17 @@
   5px 5px 5px rgb(255, 255, 255); 
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-
 }
+.arrows{
+  display: flex;
+  justify-content: center;
+}
+.arrow{
+  color: white;
+  text-shadow: -1px -3px 8px #000000;
+  transform: rotate(1deg);
+}
+
 .episode{
   text-decoration: underline;
 }
@@ -238,6 +247,32 @@ footer{
   -moz-animation: fadeIn ease 4s;
   -o-animation: fadeIn ease 4s;
   -ms-animation: fadeIn ease 4s;
+}
+
+.box {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  height: 200px;
+  margin: 10 auto 0 auto;
+  transform-origin: bottom;
+  width: 200px;
+}
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(15px); }
+  100% { transform: translateY(0); }
+}
+
+.arrows {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
 }
 
 

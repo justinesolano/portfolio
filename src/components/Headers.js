@@ -1,5 +1,7 @@
 import React from 'react'
 import { useWindupString } from 'windups'
+import { Icon } from 'semantic-ui-react'
+import ScrollIntoView from 'react-scroll-into-view'
 
 const Headers = () => {
 
@@ -22,6 +24,11 @@ const Headers = () => {
       <h2 className="fade-in" style={{ color: 'white' }}>developer | writer | gamer </h2>
       <br />
       <br />
+      <div className="arrows">
+        <ScrollIntoView selector=".hr">
+          <Icon name='angle double down' size='huge' className="arrow fade-in-two box bounce-2"/>
+        </ScrollIntoView>
+      </div>
       <br />
       <br />
       <br />
