@@ -212,8 +212,9 @@ footer{
   font-family: 'Raleway', sans-serif;
   font-size: 70px;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2.5px 2.5px rgb(255, 255, 255), 
-  3px 3px 5px rgb(0, 0, 0); 
+  text-shadow: 2px 2.5px 2.5px #000, 
+  3px 3px 5px rgb(255, 255, 255); 
+  font-weight: bold;
 }
 .ui.list.contact{
   display: flex;

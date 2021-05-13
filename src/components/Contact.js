@@ -8,7 +8,7 @@ import { AiFillGithub } from 'react-icons/ai'
 const Contact = () => {
   return (
     <div className="contacts">
-      <p className="contact-title">contact</p>
+      <p className="contact-title">contact me</p>
       <div className="ui list contact">
         <div className="item">
           <a href="https://www.linkedin.com/in/justine-solano/" style={{ color: 'white' }} target="_blank" rel="noreferrer" > <FaLinkedin size={50} /></a>
