@@ -1,10 +1,15 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import Navbar from './components/Navbar'
 import Home from './components/Home'
 
 
-function App() {
+
+const App = () => {
+
+
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -12,8 +17,6 @@ function App() {
       </Switch>
     </BrowserRouter>
   )
-
-
 }
 
 export default App
