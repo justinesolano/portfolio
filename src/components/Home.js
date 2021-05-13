@@ -24,6 +24,7 @@ const Home = () => {
         <br />
         <br />
         <br />
+        <br />
         <About className="about"/>
         <br />
         <br />
