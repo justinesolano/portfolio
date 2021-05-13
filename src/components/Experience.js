@@ -17,7 +17,7 @@ const Experience = () => {
                 <img src={ga} alt="ga" className="ga-logo"></img>
                 <p className="sei">Software Engineering Immersive</p>
                 <div className="sei-details">
-                  <p> London, UK | Feb 2012 - April 2021</p>
+                  <p> London, UK | Feb 2021 - April 2021</p>
                   <br/>
                 </div>
                 <p className="sei-description">12-week immersive course that helped progress my skills and knowledge of programming fundamentals. Focused on front end web development and also learnt backend programming using MongoDB, Express, Python & Django. Involved daily stand-ups, daily homework and feedback, workshops, independent, pair and group coding, hackathons.</p>
