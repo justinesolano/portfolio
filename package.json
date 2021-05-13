@@ -21,7 +21,8 @@
     "react-scroll-into-view": "^1.9.3",
     "sass": "^1.32.8",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.3"
+    "semantic-ui-react": "^2.0.3",
+    "windups": "^1.1.9"
   },
   "scripts": {
     "start": "react-scripts start",

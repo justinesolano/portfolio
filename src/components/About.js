@@ -16,8 +16,11 @@ import { FaPython } from 'react-icons/fa'
 import { SiMongodb } from 'react-icons/si'
 import { SiDjango } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
+import { FaYarn } from 'react-icons/fa'
+import { FaNpm } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FiCommand } from 'react-icons/fi'
+import { FiSlack } from 'react-icons/fi'
 import { SiHeroku } from 'react-icons/si'
 import { SiNetlify } from 'react-icons/si'
 import { DiPhotoshop } from 'react-icons/di'
@@ -100,6 +103,14 @@ const About = () => {
               <SiPostgresql size={65} className="icon" />
               <p className="names">PostgreSQL</p>
             </div>
+            <div className="name">
+              <FaYarn size={65} className="icon" />
+              <p className="names">yarn</p>
+            </div>
+            <div className="name">
+              <FaNpm size={65} className="icon" />
+              <p className="names">npm</p>
+            </div>
           </Card.Group>
         </div>
         <div className="column" id="management-column">
@@ -116,6 +127,10 @@ const About = () => {
             <div className="name">
               <FiCommand size={65} className="icon" />
               <p className="names">CLI</p>
+            </div>
+            <div className="name">
+              <FiSlack size={65} className="icon" />
+              <p className="names">Slack</p>
             </div>
             <div className="name">
               <SiHeroku size={65} className="icon" />

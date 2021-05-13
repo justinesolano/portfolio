@@ -15,12 +15,12 @@
   width: 1000px;
 }
 
-.ui.text{
+.stars-container{
   display: flex;
   justify-content: center;
   flex-direction: column;
   color: black;
-  background: linear-gradient(transparent, #ffffff), url('../assets/meteor.jpg') no-repeat center; 
+  background: linear-gradient(transparent, #ffffff), no-repeat center; 
   background-size: cover; 
 }
 .ui.inverted.header{
@@ -32,8 +32,8 @@
   text-shadow: 1px 1px 1px #000, 
   3px 3px 5px rgb(255, 255, 255); 
   position: relative;
-  animation:mymove 3s ease-out forwards;
-  animation-iteration-count: 1;
+  // animation:mymove 3s ease-out forwards;
+  // animation-iteration-count: 1;
   color: white;
   z-index: 0;
   font-weight: lighter;
@@ -231,13 +231,156 @@ footer{
 }
 
 .fade-in {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 
+@mixin translate50
+{
+  -webkit-transform: translate(-50, -50%);
+  -ms-transform: translate(-50, -50%);
+  -o-transform: translate(-50, -50%);
+  transform: translate(-50, -50%);
+}
+
+@mixin roundedCorners
+{
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%; 
+  border-radius: 50%;
+}
+
+@mixin rotateBase
+{
+  -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+  -ms-transform: rotate3d(-1, 1, 0, 0deg);
+  -o-transform: rotate3d(-1, 1, 0, 0deg);
+  transform: rotate3d(-1, 1, 0, 0deg);
+}
+
+@mixin rotateRight
+{
+  -webkit-transform: rotate3d(-1, 1, 0, 30deg);
+  -ms-transform: rotate3d(-1, 1, 0, 30deg);
+  -o-transform: rotate3d(-1, 1, 0, 30deg);
+  transform: rotate3d(-1, 1, 0, 30deg);
+}
+
+@mixin rotateLeft
+{
+  -webkit-transform: rotate3d(-1, 1, 0, -30deg);
+  -ms-transform: rotate3d(-1, 1, 0, -30deg);
+  -o-transform: rotate3d(-1, 1, 0, -30deg);
+  transform: rotate3d(-1, 1, 0, -30deg);
+}
+
+// n is number of stars generated
+@function generateStars ($n)
+{ 
+  $value: '#{0} #{random(2000)}px #{random(2000)}px #FFF';
+
+  @for $i from 2 through $n
+  {
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF';
+  }
+
+  @return unquote($value);
+}
+
+$stars-small:  generateStars(700);
+$stars-medium: generateStars(200);
+$stars-big:    generateStars(100);
+
+
+#stars-container
+{
+  // height: 200vh;
+  // width: 200%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #191F24 100%);
+  overflow: hidden;
+  @include translate50;
+}
+    
+#stars
+{
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: $stars-small;
+  animation : animateStars 28.5s ease-in-out infinite;
+  @include roundedCorners;
+
+  &::after
+  {
+    content: " ";
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $stars-small;
+    @include roundedCorners;
+  }
+}
+    
+#stars2
+{
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: $stars-medium;
+  animation : animateStars 30s ease-in-out infinite;
+  @include roundedCorners;
+    
+  &::after
+  {
+    content: " ";
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $stars-medium;
+    @include roundedCorners;
+  }
+}
+    
+#stars3
+{
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: $stars-big;
+  animation : animateStars 31.5s ease-in-out infinite;
+  @include roundedCorners;
+    
+  &:after
+  {
+    content: " ";
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: $stars-big;
+    @include roundedCorners;
+  }
+}
+
+@keyframes animateStars
+{
+  0%{@include rotateBase;}
+  25%{@include rotateRight;}
+  50%{@include rotateBase;}
+  75%{@include rotateLeft;}
+  100%{@include rotateBase;}
+}
 
 //BURGER
 .burger{

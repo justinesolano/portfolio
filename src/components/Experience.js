@@ -6,25 +6,7 @@ import liv from '../assets/liv.png'
 
 
 const Experience = () => {
-  // return (
-  //   <>
-  //     <h1 className="experience-me">experience & education</h1>
-  //     <Grid columns={3} divided className="grid experience">
-  //       <Grid.Row>
-  //         <Grid.Column className="exp-column">
-  //           <Image src={ga} style={{ height: '65px' }} />
-  //           <p>Hello</p>
-  //         </Grid.Column>
-  //         <Grid.Column className="exp-column">
-  //           <Image src={liv} style={{ height: '65px' }} />
-  //         </Grid.Column>
-  //         <Grid.Column className="exp-column">
-  //           <Image src={spire} style={{ height: '65px' }} />
-  //         </Grid.Column>
-  //       </Grid.Row>
-  //     </Grid>
-  //   </>
-  // )
+
   return (
     <>
       <h1 className="experience-me">experience & education</h1>
