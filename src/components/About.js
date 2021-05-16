@@ -105,7 +105,7 @@ const About = () => {
             </div>
             <div className="name">
               <FaYarn size={65} className="icon" />
-              <p className="names">yarn</p>
+              <p className="names">Yarn</p>
             </div>
             <div className="name">
               <FaNpm size={65} className="icon" />
