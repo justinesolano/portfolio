@@ -26,6 +26,8 @@ import { SiNetlify } from 'react-icons/si'
 import { DiPhotoshop } from 'react-icons/di'
 import { FaTrello } from 'react-icons/fa'
 import { SiVisualstudiocode } from 'react-icons/si'
+import { SiCplusplus } from 'react-icons/si'
+
 
 const About = () => {
   return (
@@ -113,6 +115,8 @@ const About = () => {
             </div>
           </Card.Group>
         </div>
+      </div>
+      <div className="two column row">
         <div className="column" id="management-column">
           <p className="management">management & design</p>
           <Card.Group itemsPerRow={5}>
@@ -151,6 +155,20 @@ const About = () => {
           </Card.Group>
         </div>
       </div>
+      <div className="two column row">
+        <div className="column" id="management-column">
+          <p className="management">currently learning</p>
+          <Card.Group itemsPerRow={5}>
+            <div className="name" id="currently">
+              <SiCplusplus size={65} className="icon" />
+              <p className="names">C++</p>
+            </div>
+          </Card.Group>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
