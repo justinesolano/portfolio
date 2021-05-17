@@ -6,6 +6,7 @@ import ScrollIntoView from 'react-scroll-into-view'
 const Headers = () => {
 
   const [name] = useWindupString('Justine Solano', {
+    delay: 2000,
     pace: (char) => (char === ' ' ? 120 : 120),
   })
 
@@ -47,26 +48,6 @@ const Headers = () => {
       <br />
       <br />
     </div>
-  // <div className="ui sizer vertical">
-  //   <br />
-  //   <p className="ui huge header">Justine Solano</p>
-  //   <p></p>
-  //   <div className="ui large header fade-in">developer | writer | gamer</div>
-  //   <p></p>
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <br />
-  // </div>
   )
 }
 
