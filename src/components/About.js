@@ -41,7 +41,7 @@ const About = () => {
             <FontAwesomeIcon icon={faPen} className="icons fa-3x"/>
             <FontAwesomeIcon icon={faGamepad} className="icons fa-3x"/>
           </div>
-          <p className="about-me">Hello, my name is Justine! I am a junior full-stack developer & knowledge enthusiast <span role="img" aria-label="me">👩🏻‍💻 🧐</span>. I live in London and enjoy watching films, listening to music, and travelling.
+          <p className="about-me">Hello, my name is Justine! I am a junior full-stack developer & knowledge enthusiast <span role="img" aria-label="me">👩🏻‍💻 🧐</span>. I am based in London and enjoy watching films, listening to music, and travelling.
             <br />
             <br />
     I first got into coding in 2015 when I discovered an app called Episode which allows you to create a visual and interactive version of your story through a coding language called &apos;Donacode&apos;, developed specifically for the app. This allowed me to marry two of my favourite hobbies: writing and creating. As a multipotentialite who is, as Frederickson et al. described, someone that <i>&quot;when provided with  appropriate environments, can select and develop a number of competencies to a high level&quot;</i>, I truly feel that being a developer is one of these competencies.
