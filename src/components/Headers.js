@@ -6,7 +6,6 @@ import ScrollIntoView from 'react-scroll-into-view'
 const Headers = () => {
 
   const [name] = useWindupString('Justine Solano', {
-    delay: 2000,
     pace: (char) => (char === ' ' ? 120 : 120),
   })
 
