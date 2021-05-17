@@ -34,7 +34,7 @@ const Experience = () => {
               <p> Liverpool, UK | 2017 - 2020</p>
               <br/>
             </div>
-            <p className="sei-description">Modules covering topics such as ethics, logic and conflict, video games, justice, existence, religion and ancient philosophy. This degree helped build my problem-solving, analytical, communication and public-speaking skills. My favourite modules were Philosophy of Play & the Virtual, Chinese Philiosophy and Indian Philosophy. For my final year, I wrote a 10,000-word dissertation titled &quot;Are religion and human rights compatible?&quot; </p>
+            <p className="sei-description">Modules covering topics such as ethics, politics, language, logic, conflict, video games, justice, existence, consciousness, religion, metaphysics etc. This degree helped build my problem-solving, analytical, communication and public-speaking skills. My favourite modules were Chinese & Indian Philosophy, and Philosophy of Play & the Virtual where I had a chance to make a short analytical video focused on the gamification and generation of empathy in Witcher 3. For my final year, I wrote a 10,000-word dissertation titled &quot;Are religion and human rights compatible?&quot; </p>
           </div>
           <div className="column desc">
             <div className="exp-logo">

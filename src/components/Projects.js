@@ -85,7 +85,7 @@ const Projects = () => {
               <FaSass size={45} className="icon" />
             </div>
             <br />
-            <p className="project-four-description">4-person project. Full-stack MongoDB/React app using an API with CRUD functionality. Netflix-inspired travel destination app. Allows users to browse for different travel destinations around the world, add them to &apos;My List&apos; just like in Netflix. Also has an Instagram-inspired component where users have a profile page, can add pictures of their travels and like/comment on each other&apos;s posts.  </p>
+            <p className="project-four-description">4-person project. Full-stack MongoDB/React app using an API with CRUD functionality. Netflix-inspired travel destination app. Allows users to browse for different travel destinations around the world & add them to &apos;My List&apos; just like in Netflix. Also has an Instagram-inspired component where users have a profile page, can add pictures of their travels and like/comment on each other&apos;s posts. I focused on making the Navbar and Explore Page components. </p>
             <p className="project-links three"> 8 days | <a href="https://github.com/justinesolano/sei-project-three/blob/main/README.md" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="readme" >Read Me</a> | <a href="https://jetflixapp.herokuapp.com/" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="deploy">Deployed project</a> </p>
           </div>
           <hr style={{ margin: '20px 0px 20px 0px'  }} />
