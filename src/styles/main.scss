@@ -87,7 +87,7 @@
   display: flex;
   justify-content: center;
   height: 75px;
-  margin-top: -35px;
+  margin-top: -5px;
   
 }
 .exp-hr{
@@ -101,12 +101,14 @@
   justify-content: center;
   margin-top: -10px;
   font-size: 21px;
+  font-weight: bold;
+
 }
 .sei-description{
-  // width: 450px;
+  font-weight: bold;
   text-align: justify;
   margin: -10px 50px 0px 50px;
-  font-size: 18px;
+  font-size: 19px;
 }
 .ga-logo{
   display: flex;
@@ -188,10 +190,13 @@
   justify-content: center;
   text-align: justify;
   font-family: 'Raleway', sans-serif;
-  font-size: 19px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .project-links{
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: bold;
+
 }
 .readme, .deploy{
   text-decoration: underline;
@@ -515,8 +520,10 @@ to {top:200px; opacity: 1;}
   margin: 0px 200px 0px 200px;
 }
 .about-me{
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
+  color: black;
+  font-weight: bold;
 }
 .icons{
   display: flex;
@@ -540,6 +547,7 @@ to {top:200px; opacity: 1;}
 
 .development, .management{
   font-size: 30px;
+  font-weight: bold;
 }
 #management-column{
   margin-top: 40px;
@@ -573,7 +581,7 @@ to {top:200px; opacity: 1;}
   display: flex;
   justify-content: center;
   font-size: 19px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 #currently{
   margin-top: -10px;
