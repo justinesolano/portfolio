@@ -17,6 +17,7 @@ import { SiDjango } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
 import { FaYarn } from 'react-icons/fa'
 import { FaNpm } from 'react-icons/fa'
+import { DiGit } from 'react-icons/di'
 import { FaGithub } from 'react-icons/fa'
 import { FiCommand } from 'react-icons/fi'
 import { FiSlack } from 'react-icons/fi'
@@ -119,6 +120,10 @@ const About = () => {
         <div className="column" id="management-column">
           <p className="management">management & design</p>
           <Card.Group itemsPerRow={5}>
+            <div className="name">
+              <DiGit size={65} className="icon" />
+              <p className="names">Git</p>
+            </div>
             <div className="name">
               <FaGithub size={65} className="icon" />
               <p className="names">GitHub</p>
