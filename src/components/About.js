@@ -170,6 +170,15 @@ const About = () => {
           </Card.Group>
         </div>
       </div>
+      <div className="two column row">
+        <div className="column" id="management-column">
+          <p className="management">currently building</p>
+          <Card.Group itemsPerRow={5}>
+            <p className="names">React/MongoDB app - Coming soon!</p>
+            <p className="names">React/Django app - Coming soon!</p>
+          </Card.Group>
+        </div>
+      </div>
       <br />
       <br />
       <br />
@@ -178,17 +187,3 @@ const About = () => {
 }
 
 export default About
-
-
-{/* <div className="column">
-<p className="management">management & design</p>
-<Card.Group itemsPerRow={5}>
-  <FaGithub size={65} className="icon" />
-  <SiVisualstudiocode size={65} className="icon" />
-  <FiCommand size={65} className="icon" />
-  <SiHeroku size={65} className="icon" />
-  <SiNetlify size={65} className="icon" />
-  <DiPhotoshop size={65} className="icon" /> 
-  <FaTrello size={65} className="icon" />
-</Card.Group>
-</div> */}
