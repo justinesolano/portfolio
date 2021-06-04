@@ -175,6 +175,8 @@ const About = () => {
           <p className="management">currently building</p>
           <Card.Group itemsPerRow={5}>
             <p className="names">React/MongoDB app - Coming soon!</p>
+          </Card.Group>
+          <Card.Group itemsPerRow={5}>
             <p className="names">React/Django app - Coming soon!</p>
           </Card.Group>
         </div>

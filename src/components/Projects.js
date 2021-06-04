@@ -32,6 +32,7 @@ import { FaJs } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaSass } from 'react-icons/fa'
+import separator from '../assets/break.png'
 
 
 const Projects = () => {
@@ -63,7 +64,9 @@ const Projects = () => {
             <p className="project-four-description">Solo project. Full-stack Django/React app using an API with CRUD functionality. Allows users to browse the database of houseplants for decor purposes. Also has a social-media function where users can post their own pictures of, like and comment on plants. </p>
             <p className="project-links"> 7 days | <a href="https://github.com/justinesolano/sei-project-four/blob/main/README.md" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="readme" >Read Me</a> | <a href="https://greenhouse-app.herokuapp.com/" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="deploy">Deployed project</a> </p>
           </div>
-          <hr style={{ margin: '20px 0px 20px 0px'  }} />
+          <div className="separator">
+            <img src={separator} alt="break" style={{ height: '8px' }} ></img>
+          </div>
         </div>
         {/* <hr style={{ width: '300px' }} className="project-hr" /> */}
         <div className="nine wide column">
@@ -88,7 +91,9 @@ const Projects = () => {
             <p className="project-four-description">4-person project. Full-stack MongoDB/React app using an API with CRUD functionality. Netflix-inspired travel destination app. Allows users to browse for different travel destinations around the world & add them to &apos;My List&apos; just like in Netflix. Also has an Instagram-inspired component where users have a profile page, can add pictures of their travels and like/comment on each other&apos;s posts. I focused on making the Navbar and Explore Page components. </p>
             <p className="project-links three"> 8 days | <a href="https://github.com/justinesolano/sei-project-three/blob/main/README.md" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="readme" >Read Me</a> | <a href="https://jetflixapp.herokuapp.com/" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="deploy">Deployed project</a> </p>
           </div>
-          <hr style={{ margin: '20px 0px 20px 0px'  }} />
+          <div className="separator">
+            <img src={separator} alt="break" style={{ height: '8px' }} ></img>
+          </div>
         </div>
         {/* <hr style={{ width: '300px' }} className="project-hr" /> */}
         <div className="nine wide column">
@@ -112,7 +117,9 @@ const Projects = () => {
             <p className="project-four-description">2-person hackathon. Front-end React app using an external API. Users can play two 20-question LotR quizzes: &quot;Guess who said this quote&quot; & &quot;Guess which movie this quote is from&quot;. Scores are tracked and players get a different reaction gif at the end depending on their score. </p>
             <p className="project-links two"> 2 days | <a href="https://github.com/justinesolano/sei-project-two/blob/master/README.md" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="readme">Read Me</a> | <a href="https://lotrquiz-app.netlify.app/" target="_blank" rel="noreferrer" style={{ color: 'black' }} className="deploy">Deployed project</a> </p>
           </div>
-          <hr style={{ margin: '20px 0px 20px 0px'  }} />
+          <div className="separator">
+            <img src={separator} alt="break" style={{ height: '8px' }} ></img>
+          </div>
         </div>
         <div className="nine wide column">
           <AwesomeSlider className="slider-settings">

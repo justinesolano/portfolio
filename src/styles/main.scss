@@ -14,9 +14,7 @@
   display: flex;
   justify-content: center;
 }
-.hr, .hr-two, .hr-three {
-  width: 1000px;
-}
+
 
 .ui.text{
   display: flex;
@@ -52,6 +50,7 @@
 .arrows{
   display: flex;
   justify-content: center;
+  margin-right: -20px;
 }
 .arrow{
   color: white;
@@ -585,6 +584,11 @@ to {top:200px; opacity: 1;}
 }
 #currently{
   margin-top: -10px;
+}
+.separator{
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px 40px 0px;
 }
 
 
